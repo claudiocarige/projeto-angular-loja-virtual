@@ -1,0 +1,10 @@
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.header{
+position: static;
+left: 100px;
+}

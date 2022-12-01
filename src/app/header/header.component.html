@@ -1,0 +1,32 @@
+<header class="container__header">
+    <div class="div__header__logo col-3">
+        <h1>
+            <img src="./assets/img/logoUseCouro01.png" alt="">
+        </h1>
+    </div>
+    <div class="container__div__header">
+        
+        <div class="div__header__nav ">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="carrinho">Carrinho <i class="fa-solid fa-cart-shopping"></i></a>
+                        <span class="carrinho__valor">{{carrinhoService.obtemCarrinho().length}}</span>
+                    </li>
+                    <li>
+                        <a href="contato">Contato</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="div__search">
+        <app-barra-pesquisa></app-barra-pesquisa>
+    </div>
+</header>
